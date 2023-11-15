@@ -1,0 +1,110 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_PopupTexteLong
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_PopupTexteLong
+ identifier : 0x215c4d0416f717b6
+ internal_properties : CAAAAAgAAACPRLQuuIFSZ+OT583V0pa+5+O3gi6wz/TcH5DpJod6Iu/THG2dT1/HvaR6vXaxE+XamX15jUOGhx9gZws5ZsGMwXdHxF1249BE/BtKNXWYULj+xVG7u5Vi4kbFkaWbdrWF1m7hgqJmzKmyoduM8p6m4LHkbnIEXAKUB3WIJMc7DNoyI25QPrBxq+8CNQdtO36WQG2evnT0527at28gFpvZg/70QMSJfOnzViAPSOYeZcosMbZhsQUstDmY0jnqStJOjMTcPhjK31w5wIVNzXtsiE6DPnWkvMOPnSIz9+0R/zDoxiBzV94f6ZTgKnBapKa4K8/5hgCbCI8txt7dezNGylVdurZq9lDuQgR+NDNqHzaOj3bkHINln4iNlKM9kei7CIAZo+1e7A08eVvb2mlk1uKhIvgL0ljbo4cU1/f59zZ6JM3FxUaQcfDU3krKZdVBY/Yv3oXjuPa1Ypr0t483MW0LMfTWzLFsnqU0cd36i540kl+hvUv+ry6WYoJN7jvUKg0MiTFbrJ8yNgxQYrY/LyN7b3c7tz409SBDcSkHMKM3G9LH0LZNaQCo7DrwnT3Vc3Vt/lUa27EeOf6HQzfhiN87Y6OWRJBKqk3P7pQHBB/mIqvOVF7UamdPMRFUsfiKBbN0XsQdnnzbd3x2OGq0m//zn7n6yRRKvQ/FSlQxiAbgJdUX9E3dmaghtK8TR7VmP2VejnmYOZWf27FXm11NAmSGgpYrrGPlPDWty1NqkW1tYVsPQ/JXGD5mpFl1idDO4yiqsKuLmtRJZyZYLGlJTJSt0AiIykbKWYicYGNUs/SrRtgioT8ao7dESBN1CVG50zvxMBPsMlnhL/n57KC4WxJHXwQSRHA/10vTMHp+jkOcQZF3DQL6AM98Cbrylb349ybAuaCGhw==
+ properties :
+  width : 327
+  height : 236
+ controls :
+  -
+    name : SAI_Contenu
+    identifier : 0x215c4ead17b3944b
+    internal_properties : CAAAAAgAAACADukkspGAOSzqkhCVUWBb+en7VH2ypTOgYIs9T2CyOGksMhYKVvxyjfJdYvTYABV+9amLxEwBT8QzCESuI4lILDFkupXlek3f7xNlfWBCDWeia2Hr4nVMTA++jYScJumnflIbNk/5FuMnU7mUaAUid9QBNlhwGesGN7fm6X5tUiYmu4XI58QXYqcUfW5EUj1cBB+agCmgC02wTneQ7R4vsw5gIeCVIThjKWyyt0Xpec3UOaRIiBu83PY49gYNkNGiQhqWcxJykgqIXP6IsPng5ZSVaj0ISoHJpu5XcqFodFQcmowQRmAeJGQ5p1Tki9QMTVR6iCDMUkoVtOj1c+OUN5dkrWZQM+RGY7ymcy4GRTJszQBDe+FLUJ3NgWDLjbvmZ8HP95ap27XgT5RyqyA5j3fKnVYI52RP07G4abYwjH9DhAO207wjmlRHiImS2fbqa2FPFaRNbhqq6WBf3FJBcwO4K41JQn9uLivA2Fnzb87+s1G/+aoTGDdZHX2ngAZu0eUQMza8lEqTJ+YpL5PsOTRUXeB0s22CGgMaKywTg3RQe1hOLvl4eueUiPrioYAA6VPwqMLwfO7MjyIBK6nzPhVo/DaJR1oP8v4eUeZkuvIMkNt/qhu1JoVx/L72WiKtfUxydoeQTpXXY9x/g2gDGqbcbRHLvmUiBJ9+NWiwxf0mMlKQYiyf2T3qNA/2jPV61KdOEcWL7HkS91Yxtv4hNeljI2livpthjY1sFy5j5n234e6w0GzcEFZ9OLYoOvyBlTQGuyaRb3kzyts8qf2lejvbJ0tOVDKY8nKkrie5d+qcjPIlpv2+kewcFE/ZvqwcivyVHvl2C5OcAkElcYuseivqxWZ52Q23C0C3/yaK2As8sEgpTiKumxbSYuvTS59Xg9qVTD1uQjQDtS01XK17qnSmGMV+DNz0BJd6pOMe4eGDmui3H66QliOZfLde+O8WVAKlfXNPyrpwmH1AgbuN2hDBTXdNwczcS+4XrOJISuAyxUFIhBLYmcsKhTKhoqafpwpoRdWBIPklxOqHlTE/JY+XjlTwz6XqV/2uFJ7ZgOymSdb8AjbBeqEt/S6+RprG8bfFDlb2/xIB/vuvFAwefS94u7zi00kdCkmfC19JF/0iWzSHKF7XSz3I8i4J3ApDhUMAi9LCoxAYSN1wrREt7anS9lpWuF8PQPSoT9dVEz+2yBrixf2MeiAACcUl68IP8NsmyRacR26jE54NrsYlAifoTtJyxqjeXcpaRsGXkXaCymkwoAfM48df4YmGRLYz/sqw9bsikS/oSwO1Jy2Giz0dAtqzewhWzz2TDKlIxXQ=
+    properties :
+     width : 327
+     height : 236
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABDNRqB7cu3hk8cDwpkr0DJI738DIjN03sf0vOAWIWv/wFsLtjD4NF9OHPzxMhmLT732mog4LQqzFa14NXoaBZs5Rms0+3EwKC8ppq0nmpQosPxsIsiA05PmMDFnJ95z3xNHZ9pChzGKiyOv+Q=
+        code : |1+
+         // Version 1
+         // Description 
+         // Saisie de texte multiligne
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      LOCAL
+      	
+      // Il est possible de manipuler le champ associé à la popup avec MonChampPopup
+      DonneFocus(MonChampPopup) 
+      
+      // Récupération du contenu
+      SAI_Contenu = MonChampPopup..valeur
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  orphans :
+   -
+     name : ACTB_ActionBar
+     identifier : 0x215c4d0416f817b6
+     code_elements :
+      type_code : 125
+      p_codes :
+       -
+         type : 18
+         enabled : false
+       -
+         type : 229
+         enabled : false
+       -
+         type : 239
+         enabled : false
+       -
+         type : 240
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x115c4cfc00edfa3b
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,443 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_PopupChoixCouleur
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_PopupChoixCouleur
+ identifier : 0x215c128b0b72af6c
+ internal_properties : CAAAAAgAAAC5dbvSKP3G284Bv4ICV2qu6yEBBHhifNbNNk3K9CqD/i4AfxCaYi0Tz8MB5jRz7+0vjzcabEStHERdIjeeEvQtsvSMHVZ3kGn4PJ+Sn0L9sWyq5LdWdwWbt42mmmxat2GBp1/LjhniDGGEMq0NcgCr5UlNW0g8N0WMy+P6Hx83d4EdIktElCJxYrKaUtlE8BkYarUo8nsmK+3olaod/Sc88UnpyLU6reqgSEwCkAWhMqASwefVCcvqxa16p3BWN3SVWxFktKJjJXoU9RGMG0CBqq2z4rSukCotULpZye2lxS/jD1np9GK6+xBm6r4qN9f5Rbw7CzzTntfQ2/lSP/cpaSlFQHkkAGDnP/LymCMDVkC1ncXXcxA82FhKjDGig4HiI3FsgQnEwDFiPz6EMvvY3BlNSsXUzBvw+Jac0m96hSPJMYR3SQpxhPrMYanYiKUnY/WiV1ljk5L4yJmvVvI4HrMo5vQ8Sz6xYKbKKjRg8+zesaUhZjitoVVeyt/vOZ4eAPA8jXLsm6UFHLCvFOPmp8+sia0USNFg1GS9VBOGs78v/NwbT7XqM92YtvMMegZZc/ItaAARiuVf186kP9R+7qkwwXnrCYXgNR/Nf8rCYatWlWW0nx1fePojl+4w7qNkM6LAYu2lDk8nVmS6H5sX1cegsNYviPPlBkwVcQP/Wj9UKQfF4z6R6lys1meaqM3iChtKk5+DHNSd7r/d+GPNOgo9pbMrywFfKkqs7axdVum8oQC6rFHkebOum1dqIzqaQO0GgLL4qX56KuqkNrjqZC1NkzGGek3OJ26OfYn3IqdO1viYT5RW5bjU8eMSnPTL8b841u92938xMnwapoUogqN7yPQWfAYk81Ek2DKwN+a1pslmVrZxR6awLo3gQdp1Fwj+r8i8M4XBCf6hrNqFZUY0Homsiyojl4TAIA==
+ properties :
+  width : 327
+  height : 236
+ controls :
+  -
+    name : Lib_Titre
+    identifier : 0x215c12a90b7e241f
+    internal_properties : CAAAAAgAAADoy/v59LOKCkg0fygQweDBVbvv2TF6i4T3Si0on9z5t8R/i4kzjyBjzuM4Tm9ksH7RZllbPpRx0sgShBGyYZm93VAei4QhrjXwmONyTMQgTcBD8tHME0xFE50Vehf1FSBvRJYE0pTamDPeS9Ek8D2Ekds2yh2/JfGC0OFw+N0YFL8wuPpYLMriD1OG0bwrHp4wjSYNNfHhzTnG9liCzoJXoj8kB2+sTCJoLrulWLnguocej6xfZxvorETBDRBEce0/IWrhEZK4U2mwQRXUj+3gXZaTuZZQ3oPkvBar9rVg5du8Gf5OySSVvMVPwD/12iBF1+lfY4/vCPFV51ualRxUlX9w05AyK05mRXWaKKj7kXOpPjOaX8eh6LybevjrRQ129zgKpyMtu4/0mmUJwbEoAP9AGvijn17r0viJSAdsTvjwkgeH3SaABbMwNy3GJk29+2n5i3YpPrM84wCZ4x0=
+    properties :
+     x : 6
+     y : 11
+     width : 183
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SC_SelecteurCouleur
+    identifier : 0x215c12a90b8e242e
+    internal_properties : CAAAAAgAAACJBZDjQi2e2gwrJjGt4CxC/RC76UC8LHczt7GCe2QxDmP6neobmf6FOUpO/+TuY7mkKBBSnfPvPJyPmv/x6TuLMfz+owciCHnP2nU8oyFJfjsnNR+/QJJh72wTWb0wvSVM7Lurls6p8qBNjL+MJbniSSuXmygc/XEyovoDvkHEPR9o0wn/sa9UViTA1RCdJYGwk2rryx21jDzoi6DuBNK7RRb08tTqntQfAygX0evEUVpkMzJAfJdeDngrO+iprjQFnmWX9JYO56ptGor25JwFfHWpD1vKyw0MXCoQX4KVorNKPpMSRddS4ltOPsO3zgsASj1dF6nj3RZTAJsNvyvNvBdHBzXSkYwCpTiHfuHsfoQM6xWLRL9hTTuBlIyibG43AlPEJis3z3kGGNANi7Ouwcrawh10b0k8GL2oqJ+LyU9ip0rJ13KvnwJx2s2E1EZYSE1BD1Qip1nI2tVTdgMFfBATwstp7CQnVQHqrqFqUO4n6+k4Z4CVMv+vuMU8u09URJq3/uugBpbxI75h4WmZUCtty5KJIl5Gs+664KdwvEdIko26FUYmlbz/TMPZo6+WFx4qNWOOS+EituFYK90H4EtR9B+i3VlqBVTeeXzSPStBfXtIHfLAsfoRK6WBnzSxUHCLdL7RGui8t4fiOqJfo1JFMxpSc2GJq6W5fGkkpWV9Ae4WTQ==
+    properties :
+     x : 3
+     y : 57
+     width : 314
+     height : 134
+    controls :
+     -
+       name : IMG_C10
+       identifier : 0x215c12a90b8f242e
+       internal_properties : CAAAAAgAAABY49OLOeZXOXAjS1Kfg18N39ApB7SsoFUvx4f3snBW0SW/wst1gS9V25p2tWidWxmAZF/RmkWPnZmT6OSC/xaNDnD5tmUVaRjjbrcRpZmRZPKsshn9UpmuhKADzPVg9z7Gpf1ipyTC2Myortpb3+Ev1ARZbFV9zgqFIyAv3XJfN3YFV8hkqjM7WkIbTUbIoZ9eI8jOMJlLDmIvJKteeasKf+b3d9hdPjRVVKZrhG4dZhsoYi3OJAtLN1JRV/WCl/hB+vWa8yFG4pqPvFbbZxdJB6cebwnmKQ8Ckj9pHyhLuIYUwZ8GiZTIytW9/b4X7Z2x3IGv/P3z6JDS4owGDI+vqQmRuUwZtb9xeXqudTWh42woCnkOJJgA1MzflGdpS49SrkHFh7fSwFbskvAtpiWGisTHTsfEHKqbZmn6GnwidK1drv7Lddk9An//0IGoMXxezr0mdYIcUVH/BRrsIU7xIXrLAoDRH4rUpfL/Jyyk9Qw8c52+pY/PPuNi75800iM24oNgY3jaexqO+REZaziEX9mfvkMtzl9buxuN2hkMaA8wEJplL/jmsFGrmzv+QgxjsF93l8xJsi+ew0MCr0Jt68Ob4M7AFAH59u414BgV3z4UBHZK7DVZssmEbULTfKdQGLFPc8afD8aVrN+dPGWIruPF0r33VN3bfXA40iSeN15PZc3HJRZpWBE8uCE0RsjBGYyNtHu0L1oDQFAfLhgYqkNIQq9MaGb6XKiaGGFgHXH+oiSz5l9zgJYfOqHBnK8gMcgkZhmGFN6q+OuOhBiXloBSAC/H45+gF4ORKa9JGxR1Q5Nk6PYtFs5Qv4Lr+U3c
+       properties :
+        x : 249
+        y : 70
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C9
+       identifier : 0x215c12a90b90242e
+       internal_properties : CAAAAAgAAACqrX6EIThLMcxKcuE9YNILTLkYAmC2fM28xr/uNE0Z+82npmcgc1Cc8JZXAE9FNvCaoTsvhOhHOrLgTdhXb3P5EscCpO5Lt19VXdSuvn71SsTIUfpNd1Nq3O3fakwKW71DvQT+EQEFqcFQuK9Tbw6PatCbQHh5Wk8XyjNA9HqiBJzAX3sEa3Cb5Cbs72x721ympk+mivzsuySx+zjrgApWASNXYE0dStWRvcFcNpKFjxtOWGLz+5U5I+K/W6j3PlSmkuGnlj2H1xwypMB1gh2M8EOGsAtCWCIT5hRqg9o11BXJMzA0KnpDONXtaxV1F8DRFq//nz2W8cZENg/7RbzNrUTILU45STlkEgZV6Q8yGqMcp+REvhr/zlueJKNnbsEHYTJ5R78I55Sedvx+yKRXKd60WEZ0ZE6iunUt7Zf1LpFM/xzdYtX4qdmSPEPIkZk198dsrsPXoZRLK12NDLKetIBciQaVKUQFxjMHPcCNGGLu2/XIUb/istAOaMholUjiY7esaY0bMbhjmg70F/Ou3MAiY9jFD24AikLngTxn3t5Y7we/msPHzEVfgo3e1pXLLNUrUnCLGA7z8qBtQDbllCcOgRmo5JFP70TUEBrzciwn08wNzORcGdelWIRtIOFisUfm8XcVQZHYq/aPpxiRViFNcv4svWnGazdfIYC5n7RPqjrQMxHUqSsS66zNON+u3cqDtBrBcj3en26bUvtmSRfAAvymKMrpv7NsWfZnLYJVl5vxVyj+P1AR9GJ2PMQYcEa9JFDd7AyjmQML0zJTH5juOqbAjkKOko9XtIt6DSe480Q5SgBFEIOCxy8=
+       properties :
+        x : 195
+        y : 70
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C8
+       identifier : 0x215c12a90b91242e
+       internal_properties : CAAAAAgAAACO0QqAHQQ3TIzYAGltcGJtwMsYiJh4KNG4MK1CIClRzcER3j10MeDQRHDVXIsVlrKe08P17M63AoaKvxyLd8t3ngmS+lKtY9vYcTDiElJpTuCkdfmZ6TmWoDdprjCCZ9ufh0AICQcVJWk+Ui87q57TJi4rStz/1t/HpOEoDJq2EgBWdw2Q1QjjXnh2l0R/404iKCG6ykIkDYsV07AztNJ2IffzOKWdsinxgVGEhobln750mjU5O9+zzazr3brN6DbYODf10JORRrrsDS6p6ifKDDM4PpA5u2KI2pzkZG4f5avUZwUutrloPZG+WjmA615VUMu1d64LHm5oqY/Gtx5BizQYM0WRzt28KW3vd8v+QnqycRAm4YB5trOJ4/woD/l2/n0z7p15MciMc6e+IbwXsttA5CiAX1aVsk07eE7sqfBNfP0IMW4V5QVW5AkWQz1Be+fMbg/jr8al9aOVFComtH2wALtXdSC528iaqZSRCzE8nEB0tMTqghev6UBZW48hnE/qIoZa75Majzbrk0XwgnN7KEYjERpFc8OmEAJlEpQ2JjC+uuNrUMGTinnGbhkPaIfxuAph+Ga844EjHsDvRpE8Uyd27j/J6S52BvCVpP7pKe7kUaev3GZO4w2KDdYxsPa1IAbGYvbnmvea9ltcm34Ku7lH0nbj+kY49JUScO9ibQEl4LyPJNTz7g0K9RQ9DLUWXYsq1xbut07LAsumMV9ACu1PF0k4dNBHYtuI3pWwLipm3HNZWqWOj1uLsUmHl1XYHcFE4yc0GrLIVENkdpc1nU8xvWHJx0SS3Wi3yjrrkjvunlwhPH+O8xM=
+       properties :
+        x : 141
+        y : 70
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C7
+       identifier : 0x215c12a90b92242e
+       internal_properties : CAAAAAgAAAAhrxz1uRFmgRfu5A0TPA50B2+VVe0Ln+HgRJLrCjxRGvcJOGDdQkQ2QnFgc7y4gRdX6mvgLUhtdVnRoDXxvOV0IOy/KYRug1qFVzOcPCZK3c67hbTruF0MtBsC+FMNLQjMZXvGLoOLacdsE61K/+mdHSt0JGgIuMMkAUkfBYm0p7Y/CtgWNhUY3iEH6mub8pN9VdmvWA1Qnuk2ISC28RWL2uYYgx78mE84HHyrdeVINgWRKmJalDwdDwezuPsCVwpe5Qk3ffFQUD8faxBJKKucwbLlSYPqS9k0BZnK0VaI+LZ93BcSkANAdcnCDj/HmIETfCYZNfsIaXBPaOoVGmawbLDbJeE8vPoDKHnIf6wrpCMKvqzZ7WbbO+kW4BbLo3udcnLuoC3q/vvtgaQxF4z1E8Sqksrz5k+dYrhYV+bl4GCtz4Pv2SujnUmTh1sbAyF5+BCYs/zU2B9xKLF1guP5kWJ6lD/XQQE4MrScPp8s6xhwc0SwoJrGql+AehaoRYZC26lHESJe1QjXlZPDP8VT+nc7QTrfNmphCfFPERb9DL++feUUZgQAK8r6Smu7sm89X1NZN1pL+S2cMNpxQfOojUh6kf3aZiwJWdeOZR2d6FDRj4NyXUIpCmAdTy53pXxyCLJJksZo7M42okdH8DPxNR/vmTEGlFhfDeUfU5biL/QvIcfan20AY4EYwYaB7OYAFch5UZaiVzLTr2FrGX9Sac2HKvkxUGLF8TiLQsF3FItPIaYUYk+3Gx4Qn7f5XDDZhdtR988WP2HB/zXNyRlli4H0RtArg+nPRZZAQodNegL2CYgSJFLhWTQnNpri5Gb1Bho=
+       properties :
+        x : 87
+        y : 70
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C6
+       identifier : 0x215c12a90b93242e
+       internal_properties : CAAAAAgAAABpB3T9sRkeSc9GjCWr5OZ8fxedbVWDJ1kojIoT0nSZUr9BcCiVijx++omoa5SgWd+vclP4FUB1bWHZuB3ZVM0MyATXsXx2W0Jdz5sUtK7CZUaDbQyTcOXEHMA9BX7oxCvlqKTthSo8jGj1HuKdIjwQQnIRR7OjzerVOpR04GTfcgcS16vFfe7f0yaajwZGwQJi/AayW0Al0XZj3OntuIR6TxGhGp1roUaBoSNYGHDTHV40D7V5G128bDAOCcqx4on/wD4KZCDZSxAMurngX0JXCPxzU0nYtfPq8zv0D1x6lrgPsrkolg360+98wEWFig+19oSLW1HqE5Yl+mSDGNiWvkrRd2eyPoypBhtqlWHyjBMKRkRh9X6DSwGm+CaTS1sVClIuQP3afnNtWURpZ3wNsxQSqhKLbtfttgRsW+LBRPwJo59TvU8XSS2vaw8nD6WFRKR0VwDIrJt1FPX5Dm8NnV5usJyH6amcTlwouh+c2wCcO8DESIp21jPg3rKAbTbyPznLDdoeFXS79Ue/P8XTgkPTnd5vhio9LbFDzfatRDfqN6XEvJbCiUoczu+dYJ8Vb50pV3htu4fY3krhnw1MgRR4VSnEBCpvXY32jaMncNhZARPiIwxjdPxbN85Vd9RKZEAFVjjmqvhuXLvr6smBva95AVnMnvLNFfc79/AI0xjXy0+yxVf6MV1+oV4nRj7gAX51xRjg1fzrtxkjUUea0bX/onG52OpdWZBzaqkPrCPnSY48OiePIxYYl6/xZDjB7bMJT7f+JxkJt30VkdGdQzk8jphju6G3fV64+v/Vggr+AYAqzPoJsdxf/qLq3F7NXuI=
+       properties :
+        x : 33
+        y : 70
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C5
+       identifier : 0x215c12a90b94242e
+       internal_properties : CAAAAAgAAAC1aqa1DsCpNrscgmR7Ur1qjCZm+O42GNj1gqI4E0Coanw4HduGfCqfjmjdONSko2PUQ0x/JtlA/KrhkMtINAkTVsU9LcN2Nptrmd8PgoKngGJiplSFkLjZ1sMI+0JwPOGvQ6I9DwC6RTH6dZN1I0IDTSPE57bN9io/zT/RnExLv3oYx8Q6fW1Xn8hR8mg9qXGZNVDHiWFUa3cD4iZhfkLVf31ZhU/SrTs5dFyGxISjalkiQu22JWs6iE2X8VferRjOOaXiSfBaJ6TQX7lDiJuSvGU/93x7sieouwkYPdMSVBVKrIlpNaQySHz9OJO/4hC3yvpKtlKpbZyGu3XQkDA/lb1fCsH0nI2JeiEOojtb30Q96m6EYJJf6J1AmK9tB5NXHLe8rKbNGJ9Nb/t3+p9EKDLzhs4cJG1jF0/lr0SDxzkFWEZcGguWB+dJKlUYyWF6RubO/IvGHjmDGhjplWNi58nhLHaWvpkc/aedxnLBTa0IdlmlJO+vHVD14NaHmTItrVzP1ZVbUelgdzjIg4xEp/qAFOqSxqWt+Vd2+h3/72HPt3V6IqhfFelFBS6Ohm3SCKot/Jf38cXnRA/JG0ktaW/xJICI/wNTYors2lVFqNX3m8NU7j8ro4k2EnqiO44XKdaVy81fATYWQrfLNcyYpCAO7dcI9P5hoc8NOO4CcNCOeCXpjhvlyBYuY5tr7LyLzR5bKM5KQEZbwK9q314Dur1zGe0sEI/hXM1MBfUzHUUGSNnb24c/RyHCD4jt+QY2EOuJrMWtkC5JKOLQBYAwWzti17LnzC89pr4GQ5sxf//cpq27fsPIV78=
+       properties :
+        x : 248
+        y : 16
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C4
+       identifier : 0x215c12a90b95242e
+       internal_properties : CAAAAAgAAAC+8EdKbmjt+JwRm/Saq801QCzUGqJOUiTtU23mBQ9MF+Qao7UCBY/pfzwbnl+bnBhcnw6FgtfE5N6od+wIa+xtKeW2Ep1VumGCpkLr72GVHoNEsMFY23hvAZdAlO3/O9AeEeMqwmG7gzEc9cnARd9l/zdkuESGMIV+EU/vfwPuw1BbtzTujtEs/uWDaptjZmv9SSkrwI3cGlla3QCOMQmL+tqwV6YMXBPgCEA75fXM3tWloi5yDJh5z+sPIGPi+2rW4VErDeGEbMcbZyh5eF/z/7LlyYNqy9m0hZlKUVYI+Db9XBeSkAPAdclCDj9HmAETfCaZNXuIafDPaGqVGuaw7DBbJWE8vHoDKPnIfzfr0hN8QILX2RAvAz/+1iLPt20R4LjgyuUQCh8/zeaVOxyTxzJkxJTTlKMV/eFpoD9S0ds0RBzAClowRoRUiGTEOFqQV9UhNH2LYVxoZX4CF1RuFJ1T6YSXAcH48vRc/l/sq1gws4TwYFqGah/AOtZoBUaCm+mHUeIelciX1VOD/4UTOjd7gXqf9iohyTEP0da9zP9+sd8uCKKOsUBs3L1NINmH9d0r0czxf7MampQjI4E6lyZ8u0eUHCL/JyE4B1/zQsp/Cf3kJ8BnIE4XSSBxs46k/oxrfMh+8syMVOkZMmFjhL4I8upzR524gGKQDEu3/CPaxkRPYOyRmHQF2peeycNniPWOPuexpI/+Wr6I/BLnnPi6Z750nTGUADeUS8huDYJGKK8dGfjecqWXECBg9030mOZGDPIz2sx8OvKCBGQy9nTnU8U+kPTaUKF9h0IIt8E1yElTm8tYwKuurxOZr7OgqbU=
+       properties :
+        x : 194
+        y : 16
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C3
+       identifier : 0x215c12a90b96242e
+       internal_properties : CAAAAAgAAACSPAOGqiQ5ZHC1/2j+T3GJHDA4jjYiRjgJL+lyMQu4s5imX4E+YRsVoxBP0hPfoGy44+Jppsvo6NpUc9hkF4jZnXGi/kkx5v0milYvo7U5gn/INEXcTyyzzXMs8EkLJwzSfQ/Gbg3Xv4UQuX2UOeNpm5v4PJiaxDnKnftre48qT+QPMiCC+KkSFKUtHjHR9DefSSlLhF9siDdimxSo+w/HjOrc64668LWO8PIXy4NGVqtRYnr+XlC/ec8pFHWchSoMLelXWY8w+qFfiUiTKjUxGVaR4Q/cm4tSRZ+m3wyOnFD9TLf+oivmI9lkUvEJjk1xeDZpuc2wD77fCnKv/FBAglz7Pfl+7JyhWP90kRJOUNfa6qy9ETZLP8GepOqvuycx4rYGLAkqPqddiTC1E1wp1wwe+v631mfhRKau5dT3foafxfn1J3Xt17sBBdnxFTfHEi7+WQrmiulrfm9zIK3P78ToGnLqlnRPM7PXqQa3bk0pmqtfw8flhXinPdn39DGHnNjuaIV7wJOg7Ia2Btxu73TO/A0+l32A4vh6PJUMHwgPeJrRr0MxeHnLXzikW5QouhBmlDtq9gLDyWcGeijpfE9jujb3cVkeDDzHnrIW4Wu0JDBHhim+Uxt6ECfs3r0Vbxv6YyuTmavRP9gITWwmgKq8Ds5X4/kEXE4soKfTmJ+eQhj7vIBl7Bi5LmMiTcerlEn6whst4It6xgrciI5jGHw2+yrA4fWoFNsoJ+xCYXaynDuB/eTKbqGTHDR806lQfMJ62C53noCg3hbuqDgGKiAbr3lCnIBW3D2Zm150I60ZJO2/d6+8ZA8CE7/N83fkdYk=
+       properties :
+        x : 140
+        y : 16
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C2
+       identifier : 0x215c12a90b97242e
+       internal_properties : CAAAAAgAAADsgvFU2HLHorb/NZqMjb/n5k72NAzo/IZHaVe090nG8Ur0BR+kfzGDKfrVZIG9jgJagQiHhNHGHjDuiSLCrTa//9cIVNcf/Cu0BOSJCcN3OKH+Sus6ZZq5q90K0q+pheoka+WsRGvtnVv6D9/q3/nfhSluMs6YOgcIH7mVgUWwHaY1eH6ItrcIGk/zyM+/CkUpNz/5qg0Srl0U0d72sdVVHkByCaRYVhvcwoC5eRF0/D2XaBAcfDZlh+n3Ngtyo0g+gwfdF2WekL95p7KZoHuP8Y5F4WvQs3tOde+K44gOwIydkF+6zusmbwlsTrVVVvFl4NohbRloT/o/gm67YCActjwnNSUC/Pz1EJeohXEKOhN8QALXWZAvg7/+VqLPN22RYDjgSuUQih8/TeaVuxwTxzJkRJRTFKOVvSEpYP8SkRv0hFwAyhrwBkSUSCSE+BrQFxVhdD1LIRwopT7C1xQuVF2TwQ0AoA7BhQGlB9RhFNPrqLHFWZl3J6Jdex+tvn+dfh705hNV+jV6Mkx8dA4UrX784hs0Ob/iJIb48iOerbZh/gT7RR1LBvdJmbLarWpeMN5oFrmseEAB93HIuGov4vVZdAglY4uMOupRIDCQ36mq0sIxnIPY+XHAihkaKAsDnQnMnfGd4yFHpXKiIxZM5lCaYPhtPRMiuizOQoX9xm2sEIp1OsJnos7vMC1oh/0hwr+0hFkvool4xBQmXrABtpLcRdwWO0/2omlaERKkx9wYet3jUz6kNOdpRh5i9U/2muBc+swJMBY2ZIgYnsKMUM5J8TuA3kIUGvvbJaSu2ePXaheBteFuKkXIVfmDRcVS22c=
+       properties :
+        x : 86
+        y : 16
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_C1
+       identifier : 0x215c12a90b98242e
+       internal_properties : CAAAAAgAAAAt1GfkaWN4dQYsihEXlYYca5wvS90Y2+HMbe8xku0Ht09nSI6lA81A9zxLwRa9/meJFaz//OaFU9aSCmmJZgonjYvURD9/dVRJtWnQCJ4XCx175bWjEG4B8FkIIiHD+JCDWbh2dJUctuiu3gl883+SU/sv0RmSk7m1sXsyw9ixJoUDGUJ+qgfEq7I3jv5hGjgQZ4gzTMM1FmAGtFBooSlIT0mav5RKj8Sc75leCfTdj1WxE7jlqG3CXmllcdrl/FB2d2l67a4Fa1/zfmz5n0YVlhTFyMAKOdOmomdc8nEzSOXUX+kOa/gvrU9jjCawq/wu0lKtjgk/J295C9SIYB88JFWSfoB/7pdQJIbzR1ss1CTEL0Ms3dHqf5pHO+Dg7k7Q+GDCM6tT/Fo3TofZRrNzoIjuO/tnkVxiLzvpxING5yDnVfE6CFXZ7vJzuRcmmks8ItRY+TLHCv9qqba+2s3nWJoAx1dTF5u6rYuk+DwdBy7KzBCeS9yYizcOYpyJHteM43WnqLYhR12ett6+LYOtopwy/LETfwSTzcsQCPbH51mRc4MMF0CfxX15PryGRS/QtM4eoAgHhswkOfsR+2dTueaWPO9GdTqc7Dx7vxVU71e+snpggHHrMTaYNCENZB/Iy+MmYCTZbtFRBYaYZPvOxOws7ihocZj4g+OVIyDByitl8e/aJZ/lV0CI8GFYEQLnOpCIa3k/zJoKj79A8Uzispj+u8vd23nhN6zF6KnVq7kec0EPkDWR6eZB2OzyzIiyh+VAwdPxRodNw49zppjVeYztkubNe1eVqam4qtfCAQ==
+       properties :
+        x : 32
+        y : 16
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            SelectionneCouleur(MoiMême)
+           type : 18
+     -
+       name : IMG_SelecteurNoir
+       identifier : 0x215c12a90b99242e
+       internal_properties : CAAAAAgAAAD+enclX/t5HjEAnK8+5Qb+vcJ8X5f8YI4SOE94xYruG+L+pyedws4JkKY4j1CRQufZohX8fhnOqyx+Gx6kXf93pKlRp52Pk9xvW5QNL4sgaKZK+SDwT2jykR9rQtGmQ4Xyaszl9iEAXmIdPT/uqAgt3rAEItyu5sD7zaAr46gXgLVEpGQeRRh+vmkvyHofY0J79m24V8ooLebrjb99EEiQt5gbH+pYlC3nAd9QapltPPZEngidlxibmV1Rk7BIx0oPQKivQBAQOznFAIXw99q9j7gbSOjb1+a7G+g7FFZ3CmANbrHU6RrFzrSj585FV2/n0VxKILpkLPxB1CQjQ5/Azi92yN5VCmEaqmtUP61ZvqkMySKPbG1JhZdRlPzHJfQVPwEhpx51aYU12X5AB3TLA4KijifFlmp8BMp65AH748XQrN/tY5x6y9WgN40EMioZ5Dt/n+EA6Gp58s5X0n6DCslU+HqHMK3G4VgMVKilgXDx+XFIE/mfSFHzFdEMsBKOfNEg8zb1hyfC1xSI1pGZ3tHPz6Kqt67USCV7rTFj+BgmHExBxzNc8iGB937SmI9izbVXf/jatmi8CGJ+ooPqSBoo+gd16boH3hGyZXPR0+GjLfVPuyKgNmrgekuLf1EnRdZoBYYmvhHSIDOMvJWr1byBQdxE52txnuSvgy+Bk6WI4giSaTerYKmQwfRICmzslT2oMjijRHar80/kc+F5lkcM2YmIgt93+bb3OLE1ttpIz0s90CLJPicUeW3GDWjR861s6DbznwqVw9CDcLdP8JGGdyDGJv52VRa149345etv
+       properties :
+        x : 30
+        y : 14
+        width : 40
+        height : 40
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            <COMPILE SI TypeConfiguration<>Android>
+            	// Assure que le sélecteur soit au-dessus
+            	MoiMême..Altitude = 999
+            <FIN>
+           type : 14
+     -
+       name : IMG_SelecteurBlanc
+       identifier : 0x215c12a90b9a242e
+       internal_properties : CAAAAAgAAAB9q6jMN/b4DSWuLEDkGdZtvYTyJCSCN3EdiyDE2/aYwNr6PHT3XPZ2SLd9AR2oztmoGP9qgRel2Fa4YHqJN0mGbqpF82Vf+ScgBIxi7k0xzcWkrTcPH/Kcudj5pAelceW/DXu5a1T3ZSWoNJMKk5+VxOS+RwnPXqS5ZUU4h54E92EbkuIUhoa55AKDwT5zFHKDVRhKuN+xG/zaJEvhDYClihEx6eAhHctQYWo82e2zFUwMizGWKegzKGXLi3t4fqPpw0KlTR7d2V9JQU5UpKR73QrFuWpKPwVRNidauh6HFCIHgDwkrzxIuRMYClyUBsehipNyJZr2ukByaZRmcZlx/INlmE/HY9trOOEUu2W9daEqc3GlIQERx8awJaw0O/oHzdNBtBtGQaheKK8wiqcDqOAjKmRDMVzMZQ+Acf9uKQDiMH8OfBBUYHKOIYguJ92EGGCe5sPAPDYnH7hLe4bsARcCfbO6K+2P2iPxnLAF0Q3lRGzHP3pOL1/rAv7k1Z5gX9162v841JdTlpdN/AKylWlQk/zOkMTtt6KsaNQujUu1kpUW/ypB4WnGXHz18vuZVTbFyb/mfix7aGftNuIXstba04g/8zmL5eW6T1MUjRwMKNf8hw1QpkoJnvHzhNdeJOseTBaY5D7EYk8Cmmbc7yuh4Uyj0jmthXwHIX92Vk3lym2Ve9kEXby7CVZD84a0xu0J2MN9a3GE87OSigEEVfUER6SI0YXKsq6e7dhUtP0+d0DOkMnGsMuF3k3lmW06CItvdr+1nYw+xSz6ITapiJFJZx3SFgF87AAtvBH6KHsC/McWhtlsFk+RL0wL87E7pbVgPi9zn7U=
+       properties :
+        x : 27
+        y : 11
+        width : 46
+        height : 46
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            <COMPILE SI TypeConfiguration<>Android>
+            	// Assure que le sélecteur soit au-dessus
+            	MoiMême..Altitude = 999
+            <FIN>
+           type : 14
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Sélecteur simplifié de couleurs
+         // Les boutons servent à choisir une couleur prédéfinie
+         
+         gCouleurSelection est une Couleur
+      -
+        internal_properties : CAAAAAgAAACI97xAqVXuKNO+UzZCJ2RfSxh55VzFvKYhG89z3acGF78YPPnd5afP3uoLcbUCd5SHeFc367FRSGukxgErdK9nrPdu+06CT+RhHRaUIaQFibJpeLFZgQFP47HDAujTyn1mjc9DyuE8UzjReQ==
+        code : |1+
+         
+         // Sélectionne la 1ère couleur par défaut
+         SelectionneCouleur(IMG_C1)
+        type : 14
+      -
+        code : |1+
+         
+         
+         // Applique la couleur au premier sélecteur et le sélectionne
+         gCouleurSelection = MoiMême
+         
+         // Sélectionne la couleur si déjà présente
+         nIndiceChamp est un entier = 1
+         tantque champexiste("IMG_C" + nIndiceChamp)
+         	si {"IMG_C" + nIndiceChamp,indchamp}..CouleurFond = gCouleurSelection ALORS
+         		SelectionneCouleur({"IMG_C" + nIndiceChamp,indChamp})
+         		retour	
+         	FIN
+         	nIndiceChamp++
+         FIN
+         
+         // Change la première couleur et la sélectionne
+         IMG_C1..CouleurFond = gCouleurSelection
+         SelectionneCouleur(IMG_C1)
+        type : 43
+      -
+        code : |1+
+         
+         MoiMême= gCouleurSelection
+        type : 42
+     procedures :
+      -
+        name : SelectionneCouleur
+        procedure_id : 1250895313572275262
+        type_code : 14
+        code : |1+
+         // Résumé : Sélectionne une couleur
+         // Paramètres :
+         //	sNomChamp (chaîne UNICODE) : Champ sélectionné
+         // Valeur de retour :
+         // 	Aucune
+         //
+         PROCEDURE SelectionneCouleur(pChamp est un champ)
+         
+         // Change la couleur
+         gCouleurSelection = pChamp..CouleurFond
+         
+         // Déplace le curseur
+         IMG_SelecteurNoir..X = pChamp..X + pChamp..Largeur/2 - IMG_SelecteurNoir..Largeur/2
+         IMG_SelecteurNoir..Y = pChamp..Y + pChamp..Hauteur/2 - IMG_SelecteurNoir..Hauteur/2
+         IMG_SelecteurBlanc..X	= pChamp..X + pChamp..Largeur/2 - IMG_SelecteurBlanc..Largeur/2
+         IMG_SelecteurBlanc..Y	= pChamp..Y + pChamp..Hauteur/2 - IMG_SelecteurBlanc..Hauteur/2
+        type : 458752
+     procedure_templates : []
+     property_templates : []
+  -
+    name : BTN_Fermer
+    identifier : 0x215c12a90bb4243e
+    internal_properties : CAAAAAgAAACH6vMo1ZOYChKY3cW2B/eQA5SEtUEV0D0tVNBhe4focZUdKNB+SMvUCcDNQL/J6j8+XDfoSxanOyWfQpAFHJ2ZErdi+mCLeFtEfbWhCDgIpmdJOhVNXgwjF6AaTicfJ+z7mOaF3HmH7Q3wQHZjcxCvDIF2jYjPMqL7zXVaDkN0vuchLXY499dlrht1UPOpsKSbbyNqRQeMYI6lBGenfhnO0XTUytuaWQiX/N2RgoGjJa/zDKsKySs9nqXU1cie+0bigF/5hbd/Es+TXq7v6tMveDdj8rvSe4BOCngh3jOL1KB9yzI6ucBxmnqP6iKo4NkxfITjhksVaks3IMKR6C3JTzUBviaf704OXkv8NuX/vv67+nBD8VaBdHf0lSvn56s3SNBH2+LCRMjKUXnXD/rR5gneG8czrPWPQAhtDkO3HFCDX6OiaHxLlzygzIiRDwSofOBxVd98ixPx1Ausnzc1H4EU/eYnmXJHr9sAJPKUSQWLurInpEFktpX8iL3Cqr8BD1rlsxksU//fot3LgsAu128aF1yNZOHXwuGdGprC3Ckrwy5dAjHyPQdvg+kySvQRcJ2YjfZJDCm2DHAnxi8UKWHjVkEpvHsXiZ8PrI3pFSAVIRoWfekNH7whrWMMRDWBoTUb8Mo/5gE9zyXrEE7Qcr4ftIt/4zTFZ4rnFVKuwLO91DKR0/WXmbmeglKvdarnahryegoCDTiWYHCuoWvSmzNLOHGXL7/t7gcASWTLt0e2xeZDHCG4Nv3d9uSsEfby+DwGCGN5GS07GSMNfrLRAqb4NtUHyXLi/czXztqmTAH/IPRYSCdQL38JNyBu02p4ZvcbKjhp+Z5nlIBSxy/wElcd985wQIC5JXw7ADqazV7xOlwee/w=
+    properties :
+     x : 290
+     y : 4
+     width : 34
+     height : 29
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ferme("")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Valider
+    identifier : 0x215c12a90bb6244d
+    internal_properties : CAAAAAgAAAB24X7SNLaBsPQO3HQxtU0bae/fhVeN+SMIfTu/isCzd+sPg7KXEsl8fm/BsSDTcwhnU9YYigR9vRYk5Z6Z8IaA1IY03a3mCqdU01pb4FhVePFi4PSfiabHE2tZteJRPkb5SY+FVFaulMY3AZLOkdgMLXZ9Imjt4V2w04rL83LBt0vIXOYvbeV1lvT/lgk920l3sKKR4hHGDZ6SVnBDKy6H0M3qXFvcpSmZ/9JNfPp8v8bkPHGX4+nvqTSqgPYket8Wm/QVP5jwqgELCotp//HCbzNkTXBojvY9+HgQI/3fNPEVk0RhGLf0l243Fk8YMj40xtHysT2jUDeYnGm4Uq24ujZEoEdd31H9fgdd73K1hyZERzAFW2H0jlTDQU9lRjCUMItFVlOB2T5SJsmVL100RZKjr5bHQ2GfEoyhJfKrEmrK0WvZvGJ1hFFR0eel1OakvQBKcjtiOoRWj3lPSzeCHDvvOwdR0GIUfcqSYylFnXCBnL+XkQQr9Pr16t50+rEKqFTVz91r+5+5Ko4BzVi9/IusW2RFsQCkAAeTzY+MA6A6eun07/LGxq0FrTPF5BM9a1TGaQU/Mlw1Y/nKsmrMUaW5Lk2jC9VT8SNuW3XwbKM5/Mlg85tpv8L7moX8Ff3Emw59HAbO8cg94sAJIX8ugi+lVZT80sWfzXtmCHkRUlfwsk+yFwTf07RwKytnnmyh022QrpECwlhsA964U7XJh7BHEHNG+/kqwTpANRKPgqXMFVXKKmFVkF68usZSd24/aS0E5wXMev586E/TEvyTsKf4dY+cw/u1jYQCRcP4WstFNOuD+7P1YU2hudymjlGIWu99EB3X1CvE6oEmJrV2JZKmA1iJ5pu3OK2APnu6tUPXdQctC0AhSs2lCJzVfFUwW3suVssmruZdUEF8zKQpOARjL27OPAKOkgqxMiZFIJoM6vbyyKeUvg==
+    properties :
+     x : 215
+     y : 191
+     width : 102
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         ferme("",SC_SelecteurCouleur.gCouleurSelection)
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre(local cCouleurSelect couleur)
+      
+      
+      
+      local
+      	// Il est possible de sortir de la popup en cliquant en dehors
+      	// Renseigner une valeur de retour permet d'éviter de renvoyer une valeur erronée
+      	gcCouleurRenvoyée est couleur = -1
+      MaFenêtre..ValeurRenvoyée = gcCouleurRenvoyée
+      
+      MonChampPopup..Libellé = "Sélection en cours..."
+   -
+     code : |1-
+      
+      // Positionnement sur la couleur déjà sélectionnée
+      cImg est champ
+      pour i = 1 _a_ GR_Couleurs..Occurrence
+      	cImg <- {EnumèreChamp(GR_Couleurs,i),indChamp}
+      	
+      	si cImg..CouleurFond = cCouleurSelect ALORS
+      		SC_SelecteurCouleur.SelectionneCouleur(cImg)
+      	FIN
+      	
+      FIN
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  orphans :
+   -
+     name : ACTB_ActionBar
+     identifier : 0x215c128b0b73af6c
+     code_elements :
+      type_code : 125
+      p_codes :
+       -
+         type : 18
+         enabled : false
+       -
+         type : 229
+         enabled : false
+       -
+         type : 239
+         enabled : false
+       -
+         type : 240
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x115c128400ac9348
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
